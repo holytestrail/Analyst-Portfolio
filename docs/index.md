@@ -1,4 +1,4 @@
-<style>h1, h2, h3, h4, h5, h6 {  border-bottom: none !important;}</style>
+<style>h1, h2, h3, h4, h5, h6 {  border-bottom: none !important;} .page-header h1 { display: none; }</style>
 
 # Business System Analyst Portfolio
 By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
