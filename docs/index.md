@@ -26,13 +26,16 @@ The app is fully functional and can be installed via the landing page:
 - Usage scenario
 - General agreements
 - Project glossary
+
 **Requirements**:
 - User story map
 - Epics and Job stories
 - Requirements (SRS)
+
 **Database Structure** (Supabase):
 - ER diagram
 - Tables
+
 **API endpoints** (Swagger, Postman)
  
  
