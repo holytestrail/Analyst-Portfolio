@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Business System Analyst portfolio
+title: Business System Analyst Portfolio
 ---
 
 <style>h1, h2, h3, h4, h5, h6 {border-bottom: none !important;}</style>
