@@ -1,13 +1,9 @@
-<style>
-h1, h2, h3, h4, h5, h6 {
-  border-bottom: none !important;
-}
-</style>
-
 ---
 layout: page
 title: Business System Analyst portfolio
 ---
+
+<style>h1, h2, h3, h4, h5, h6 {border-bottom: none !important;}</style>
 
 By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
 
@@ -17,7 +13,10 @@ By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsk
 
 The app is fully functional and can be installed via the landing page:
 [getbeerbank.vercel.app](https://getbeerbank.vercel.app/) (it's funny, check it out!)
-My 
+
+
+
+---
 
 ## See the analyst's artefacts below:
 
@@ -36,6 +35,8 @@ My
 **API endpoints** (Swagger, Postman)
 
 
+
+---
 
 # Project Description
 
@@ -66,6 +67,8 @@ My
 - **Balance** - The current amount of money units available to user. Increased automatically when exercises are added. Note that "money" in BBapp does not refer to any specific currency; It is assumed that it represents the user's local currency.
 - **Conversion Rate** - The coefficient used to convert added exercises to money:`Added Money = Added Exercises * Conversion Rate.`
 Conversion rate is set by the user in accordance to how lazy ass they are. For example, 1 exercise = 5 money units.
+
+
 
 ---
 
@@ -126,6 +129,11 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 | NFR-04                     | **Localization-Ready**:<br>All UI strings, labels, and messages shall be stored in a dedicated localization file. Hard-coding UI text is not permitted.                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                            |                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
+
+
+---
+
+
 # Database Structure
 
 ## ER diagram
@@ -168,6 +176,8 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 | spend_time | TIMESTAMPTZ | NOT NULL, default now() | Timestamp of the spend |
 | spend_amount | SMALLINT | NOT NULL, CHECK >= 1 | Amount of money spent |
 | client_event_id | UUID | NOT NULL, UNIQUE | Client-generated ID for offline deduplication |
+
+
 
 ---
 
