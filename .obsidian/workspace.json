@@ -15,7 +15,7 @@
               "state": {
                 "file": "docs/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "index"
@@ -190,10 +190,10 @@
   },
   "active": "0cca699cf139343c",
   "lastOpenFiles": [
-    "docs/img/beerbank_screen.jpg",
-    "docs/img/er_db_tables.png",
     "docs/img/job_story_map.png",
-    "docs/img/app_screens.png",
-    "docs/index.md"
+    "docs/img/er_db_tables.png",
+    "docs/img/beerbank_screen.jpg",
+    "docs/index.md",
+    "docs/img/app_screens.png"
   ]
 }
