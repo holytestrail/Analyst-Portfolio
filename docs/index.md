@@ -1,31 +1,42 @@
 ---
 layout: page
-title: "Analyst Portfolio"
+---
+BSA portfolio: Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
+
 ---
 
-*By [Pavel Linitsky](https://www.linkedin.com/in/linitsky/)  ||*  *[Live app landing page](https://getbeerbank.vercel.app/)*
+## This portfolio features a vibe-coding project where I acted as both an analyst and a programmer
 
-In this app-building project, I practiced: 
+The app is fully functional and can be installed via the landing page:
+[getbeerbank.vercel.app](https://getbeerbank.vercel.app/) (it's funny, check it out!)
 
-- Requirements management
-- Database development (ER diagrams, Supabase)
-- API endpoints (Swagger, Postman)
-- Project documentation (Obsidian, Github, Markdown, Miro, DrawIO, Notion)
-- AI vibe coding (VS Code, Cursor)
+## See the analyst's artefacts below:
+
+**Project Description**:
+- App overview
+- Usage scenario
+- General agreements
+- Project glossary
+**Requirements**:
+- User story map
+- Epics and Job stories
+- Requirements (SRS)
+**Database Structure** (Supabase):
+- ER diagram
+- Tables
+**API endpoints** (Swagger, Postman)
 
 
-# Basic Project Info
 
-## Product Overview
+# Project Description
+
+## App Overview
 
 **BeerBank** **is a fun app for those who love beer** **and would like to improve their physical shape,** but lack the motivation for regular workouts. Through gamification, we encourage them to add simple exercises to their daily life so they start moving their asses, even if it’s only a little.
 
-Download it from the landing page:
-[getbeerbank.vercel.app](https://getbeerbank.vercel.app/)
+![App screens](img/beerbank_screen.jpg)
 
-![App screens](img/app_screens.png)
-
-## App Usage Scenario
+## Usage Scenario
 
 **Step 1**: When I have a free minute, I do a few push-ups, squats, or other simple exercises. I add the number of repetitions to my BeerBank App, which increases my Beer Credit.
 
@@ -78,6 +89,8 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 
 ## Requirements
 
+*Note: this is an initial requirement document. Some of the requirements have been adjusted during the development stage*
+
 | **Req ID (Type-Story-No)** | **Description**                                                                                                                                                                                                                                               | **AC**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |                            | **Functional requirements**                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -108,7 +121,7 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 
 ## ER diagram
 
-Created in Draw.IO
+*Created in Draw.IO*
 
 ![ER diagram](img/er_db_tables.png)
 ## Tables
