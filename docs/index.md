@@ -1,10 +1,10 @@
 ---
 layout: page
-Title: '"Business System Analyst Portfolio"'
+Title: Business System Analyst Portfolio
 cssclasses:
   - "h1, h2, h3, h4, h5, h6 {border-bottom: none !important;}"
 ---
-By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
+1By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
 
  
 ---
