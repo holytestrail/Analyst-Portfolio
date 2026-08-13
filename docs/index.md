@@ -7,17 +7,18 @@ title: Business System Analyst portfolio
 
 By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
 
+ 
 ---
-
+ 
 ## This portfolio features a vibe-coding project where I acted as both an analyst and a programmer
 
 The app is fully functional and can be installed via the landing page:
 [getbeerbank.vercel.app](https://getbeerbank.vercel.app/) (it's funny, check it out!)
 
-
-
+ 
+ 
 ---
-
+ 
 ## See the analyst's artefacts below:
 
 **Project Description**:
@@ -33,11 +34,11 @@ The app is fully functional and can be installed via the landing page:
 - ER diagram
 - Tables
 **API endpoints** (Swagger, Postman)
-
-
-
+ 
+ 
+ 
 ---
-
+ 
 # Project Description
 
 ## App Overview
@@ -67,11 +68,11 @@ The app is fully functional and can be installed via the landing page:
 - **Balance** - The current amount of money units available to user. Increased automatically when exercises are added. Note that "money" in BBapp does not refer to any specific currency; It is assumed that it represents the user's local currency.
 - **Conversion Rate** - The coefficient used to convert added exercises to money:`Added Money = Added Exercises * Conversion Rate.`
 Conversion rate is set by the user in accordance to how lazy ass they are. For example, 1 exercise = 5 money units.
-
-
-
+ 
+ 
+ 
 ---
-
+ 
 # Requirements
 
 ## Job Story Map
@@ -98,7 +99,7 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 |  | AUT2 | When I'm asked to authenticate, **I want to sign in with my Google account** So I don't have to create a new user profile. | MVP |
 | Sync | SYN1 | When I adjust ExTotal or Balance, **I want my adjustments to be reflected immediately** so that I instantly feel satisfied with my efforts and honesty. | MVP |
 |  |  |  |  |
-
+ 
 ## Requirements
 
 *Note: this is an initial requirement document. Some of the requirements have been adjusted during the development stage*
@@ -128,12 +129,13 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 | NFR-03                     | **Sync Conflict:**<br>If local (unsynced) data conflicts with server data, local app data shall always overwrite the server data upon sync.<br>This refers to the user-initiated changes to ExTotal, Balance, Conversion rate, or any other data or settings. | Given the app has server data AND the user entered any data or settings in offline mode, When the server connection is restored, Then the server data is updated to match the local data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | NFR-04                     | **Localization-Ready**:<br>All UI strings, labels, and messages shall be stored in a dedicated localization file. Hard-coding UI text is not permitted.                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |                            |                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-
-
-
+|                            |                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+ 
+ 
+ 
 ---
-
-
+ 
+ 
 # Database Structure
 
 ## ER diagram
@@ -176,11 +178,11 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 | spend_time | TIMESTAMPTZ | NOT NULL, default now() | Timestamp of the spend |
 | spend_amount | SMALLINT | NOT NULL, CHECK >= 1 | Amount of money spent |
 | client_event_id | UUID | NOT NULL, UNIQUE | Client-generated ID for offline deduplication |
-
-
-
+ 
+ 
+ 
 ---
-
+ 
 # API Endpoints
 
 - *Full API specification was created in Swagger.*
