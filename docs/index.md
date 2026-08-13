@@ -1,7 +1,15 @@
+<style>
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: none !important;
+}
+</style>
+
 ---
 layout: page
+title: Business System Analyst portfolio
 ---
-BSA portfolio: Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
+
+By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
 
 ---
 
@@ -9,6 +17,7 @@ BSA portfolio: Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.co
 
 The app is fully functional and can be installed via the landing page:
 [getbeerbank.vercel.app](https://getbeerbank.vercel.app/) (it's funny, check it out!)
+My 
 
 ## See the analyst's artefacts below:
 
