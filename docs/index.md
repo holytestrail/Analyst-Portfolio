@@ -1,11 +1,7 @@
----
-layout: page
-title: Business System Analyst Portfolio
----
-
 <style>h1, h2, h3, h4, h5, h6 {  border-bottom: none !important;}</style>
 
-2By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
+# Business System Analyst Portfolio
+By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
 
  
 ---
