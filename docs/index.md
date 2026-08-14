@@ -17,8 +17,7 @@ By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsk
 This funny app is fully functional and can be installed via the landing page:
 [getbeerbank.vercel.app](https://getbeerbank.vercel.app/)
 
-![[img/beerbank_screen.jpg]] 
-
+![App_screenshot](img/beerbank_screen.jpg)
 
 
  
