@@ -3,37 +3,43 @@
 # Business System Analyst Portfolio
 By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
 
+This portfolio demonstrates my approach to essential Business Analyst skills:
+- Requirement elicitation & documentation
+- Databases
+- UI prototypes
+- API description
+- Plus, AI handling and vibe coding
  
 ---
  
-## This portfolio features a vibe-coding project where I acted as both an analyst and a programmer
+# In this vibe-coding project, I've acted as both an analyst and a programmer
 
 The app is fully functional and can be installed via the landing page:
 [getbeerbank.vercel.app](https://getbeerbank.vercel.app/) (it's funny, check it out!)
 
- 
+ ![[beerbank_screen.jpg]]
  
 ---
  
 ## See the analyst's artefacts below:
 
-**Project Description**:
+[**Project Description**](#project-description):
 - App overview
 - Usage scenario
 - General agreements
 - Project glossary
 
-**Requirements**:
+[**Requirements**](#requirements):
 - User story map
 - Epics and Job stories
 - Requirements (SRS)
 
-**Database Structure** (Supabase):
+[**Database**](#Database) (Supabase):
 - ER diagram
 - Tables
 
-**API endpoints** (Swagger, Postman)
- 
+[**API endpoints**](#api-endpoints) (Swagger, Postman)
+
  
  
 ---
@@ -43,8 +49,6 @@ The app is fully functional and can be installed via the landing page:
 ## App Overview
 
 **BeerBank** **is a fun app for those who love beer** **and would like to improve their physical shape,** but lack the motivation for regular workouts. Through gamification, we encourage them to add simple exercises to their daily life so they start moving their asses, even if it’s only a little.
-
-![App screens](img/beerbank_screen.jpg)
 
 ## Usage Scenario
 
@@ -135,7 +139,7 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 ---
  
  
-# Database Structure
+# Database
 
 ## ER diagram
 
