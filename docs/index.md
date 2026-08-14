@@ -3,7 +3,7 @@
 # Business System Analyst Portfolio
 By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
 
-This portfolio demonstrates my approach to essential Business Analyst skills:
+### This portfolio demonstrates my approach to essential Business Analyst skills:
 - Requirement elicitation & documentation
 - Databases
 - UI prototypes
@@ -14,8 +14,8 @@ This portfolio demonstrates my approach to essential Business Analyst skills:
  
 # In this vibe-coding project, I've acted as both an analyst and a programmer
 
-The app is fully functional and can be installed via the landing page:
-[getbeerbank.vercel.app](https://getbeerbank.vercel.app/) (it's funny, check it out!)
+This funny app is fully functional and can be installed via the landing page:
+[getbeerbank.vercel.app](https://getbeerbank.vercel.app/)
 
  ![[beerbank_screen.jpg]]
  
@@ -34,7 +34,7 @@ The app is fully functional and can be installed via the landing page:
 - Epics and Job stories
 - Requirements (SRS)
 
-[**Database**](#Database) (Supabase):
+[**Database**](#database-description) (Supabase):
 - ER diagram
 - Tables
 
@@ -139,7 +139,7 @@ Conversion rate is set by the user in accordance to how lazy ass they are. For e
 ---
  
  
-# Database
+# Database Description
 
 ## ER diagram
 
