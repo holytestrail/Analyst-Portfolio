@@ -18,6 +18,9 @@ This funny app is fully functional and can be installed via the landing page:
 [getbeerbank.vercel.app](https://getbeerbank.vercel.app/)
 
 ![[beerbank_screen.jpg]] 
+
+
+
  
 ---
  
