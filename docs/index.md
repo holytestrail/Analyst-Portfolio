@@ -3,6 +3,8 @@
 # Business System Analyst Portfolio
 By Pavel Linitsky (Linitckii) • [LinkedIn](https://www.linkedin.com/in/linitsky/) 
 
+---
+
 ### This portfolio demonstrates my approach to essential Business Analyst skills:
 - Requirement elicitation & documentation
 - Databases
