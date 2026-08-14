@@ -188,11 +188,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "785608a122793be0",
+  "active": "0cca699cf139343c",
   "lastOpenFiles": [
+    "_config.yml.md",
+    "assets/css/style.scss",
+    "assets/css",
+    "assets",
     "_config.yml",
     "docs/index.md",
-    "_config.yml.md",
     "docs/img/app_screens.png",
     "project-description.md",
     "sdfsdfsdfsdf.md",
